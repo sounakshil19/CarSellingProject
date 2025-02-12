@@ -14,7 +14,8 @@ import MenuItem from '@mui/material/MenuItem';
 import { Link, Outlet, useNavigate } from 'react-router-dom';
 import { profile_pic } from '../API/endpoints/endpoints';
 import { useDispatch, useSelector } from 'react-redux';
-import { logout } from '../Redux Toolkit/Slice/AuthSlice';
+import { logout } from '../Redux toolkit/Slice/authSlice';
+
 
 const pages = ['home','products','about', 'Create'];
 const settings = ['Profile', 'Logout'];
