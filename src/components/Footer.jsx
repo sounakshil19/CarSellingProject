@@ -109,8 +109,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="container copyright text-center mt-4">
-          <p>&copy; Copyright <strong className="px-1 sitename">Dewi</strong> All Rights Reserved</p>
-          <p>Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a></p>
+          <p>&copy; Sounak Shil All Rights Reserved</p>
+          <p>Designed by <a href="https://bootstrapmade.com/">Sounak Shil</a></p>
         </div>
       </footer>
       <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
