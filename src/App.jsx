@@ -10,7 +10,7 @@ import PrivateRouter from './Utils/PrivateRouter'
 import Signup from './Auth/Signup'
 import ProfileDetails from './components/ProfileDetails'
 import UpdateProduct from './components/UpdateProduct'
-import Logout from './Auth/Logout'
+// import Logout from './Auth/Logout'
 import CreateProduct from './components/CreateProduct'
 import Home from './components/Home';
 import About from './components/About';
@@ -65,11 +65,7 @@ function App() {
               path:"/product/detail/:id",
               element:<UpdateProduct/>
             },
-            {
-              path:"/logout",
-              element:<Logout/>
-            }
-
+            
            
           ]
         }
